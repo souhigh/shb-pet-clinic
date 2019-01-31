@@ -14,7 +14,7 @@
     </parent>
     <groupId>sohaib.springframework</groupId>
     <artifactId>shb-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>shb-pet-clinic</name>
     <description>SHB PET CLINIC</description>
 
@@ -40,6 +40,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/souhigh/shb-pet-clinic.git</developerConnection>
-      <tag>shb-pet-clinic-0.0.2</tag>
+      <tag>shb-pet-clinic-0.0.1</tag>
   </scm>
 </project>
