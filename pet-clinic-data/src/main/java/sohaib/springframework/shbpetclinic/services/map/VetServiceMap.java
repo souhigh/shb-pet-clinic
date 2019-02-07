@@ -1,11 +1,11 @@
 package sohaib.springframework.shbpetclinic.services.map;
 
 import sohaib.springframework.shbpetclinic.model.Vet;
-import sohaib.springframework.shbpetclinic.services.CrudService;
+import sohaib.springframework.shbpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
