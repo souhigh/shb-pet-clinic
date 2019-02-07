@@ -1,10 +1,12 @@
 package sohaib.springframework.shbpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import sohaib.springframework.shbpetclinic.model.Pet;
 import sohaib.springframework.shbpetclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override
